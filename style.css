@@ -1,0 +1,83 @@
+
+ body{
+    background-color: #fff;
+  }
+
+  /*--------- NAV SECTION-------- */
+
+  .navbar-container{
+    display: flex;
+   margin-top: 50px;
+   margin-left: 70px;
+  }
+  .list{
+    display: flex;
+    flex: 2;
+    list-style-type: none;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    color: rgba(163, 161, 161, 0.941);
+  }
+  li:first-child{
+    font-weight: bold;
+    color:#000;
+  }
+ .nav-button{
+    border: none;
+    padding: 1em 1em;
+    border-radius: 0.5em;
+    background-color: #7c24f0;
+    margin-left: 580px;
+    margin-right: 70px;
+    color: #fff;
+    width: 115px;
+  }
+
+  /* ---------HERO SECTION------ */
+
+  .banner-container{
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+  }
+  .heading-text{
+    display: column;
+    margin-top: 100px;
+    margin-left: 70px;
+    width: 500px;
+    color:#2e085f;
+    font-size: 65px;
+    font-weight: 800px;
+    font-family: "poppins";
+    line-height: 75px;
+  }
+  span{
+    color: #7c24f0;
+  }
+  .description{
+    color: rgba(163, 161, 161, 0.941);
+    margin-left: 70px;
+    margin-top: -25px;
+    width: 300px;
+  }
+  .nav-button-btn{
+    margin-left: 70px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 0.5em;
+    padding: 1.5em 1.8em;
+    background-color: #7549e1;
+    color:#fff;
+  }
+
+  /*-------- IMAGE SECTION--------- */
+  
+  img[src="/assets/Header Illustration.png"]{
+   margin-bottom: 60px;
+   height: 550px;
+   width: 720px;
+   margin-left: 220px;
+
+  } 
